@@ -1,6 +1,7 @@
 {
   "name": "teslaclone",
   "version": "0.1.0",
+  "homepage": "https://Akash-john.github.io/30DaysofJavascriptChallenge",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -13,6 +14,8 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.1.1",
+    "deploy-react": "^2.2.11",
+    "gh-pages-deploy": "^0.5.1",
     "material-ui": "^0.20.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -26,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": []
@@ -42,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
