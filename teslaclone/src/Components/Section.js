@@ -24,7 +24,10 @@ function Section({
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
           <DownArrow src="../images/down-arrow.svg" />
+<<<<<<< HEAD
           <DownArrow src="../images/down-arrow.svg" />
+=======
+>>>>>>> a75326d4906b71d6d9303b3abc47cd37a6aa4fdb
         </Buttons>
       </Wrap>
     </>
