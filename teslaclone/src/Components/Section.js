@@ -23,7 +23,13 @@ function Section({
             <LeftButton>{leftBtnText}</LeftButton>
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
+
           <DownArrow src="./images/down-arrow.svg" />
+
+          <DownArrow src="../images/down-arrow.svg" />
+
+          <DownArrow src="../images/down-arrow.svg" />
+
         </Buttons>
       </Wrap>
     </>
