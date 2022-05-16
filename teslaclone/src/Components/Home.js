@@ -53,6 +53,12 @@ function Home() {
         backgroundImg="accessories.jpg"
         leftBtnText="shop now"
       />
+      <Section
+        title="Accessories"
+        description=""
+        backgroundImg="accessories.jpg"
+        leftBtnText="shop now"
+      />
     </Container>
   );
 }
